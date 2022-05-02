@@ -1,0 +1,20 @@
+~This program is a bit complex~
+
+fonction sum(entier x, entier y) renvoi entier
+debut
+	entier s.
+	s : [x + y].
+	renvoi s.
+fin
+
+demarre
+debut
+     	entier var1, var2 : 5, res.
+	scanne(var1).
+     	res : (sum(var1, var2)).
+     	tantque(res < 60)
+     	debut
+		res : [res + var2].
+		affiche(res).
+     	fin
+fin

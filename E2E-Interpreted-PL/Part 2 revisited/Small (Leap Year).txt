@@ -1,0 +1,26 @@
+~This program checks if a given year is leap or not
+
+fonction modulo (entier nem, entier denom) renvoie entier
+debut
+     entier quotient : nem / denom.
+     entier mod : nem - quotient * denom.
+     renvoi mod.
+fin
+
+demarre
+debut
+     entier year, r1, r2, r3.
+     affiche("Please enter a year: ").
+     scanne(year).
+     r1 : modulo(year, 4).
+     r2 : modulo(year, 100).
+     r3 : modulo(year, 400).
+     si((r1 = 0 et r2 ? 0) ou r3 = 0)
+     debut
+          affiche("The year is leap").
+     fin
+     sinon
+     debut
+          affiche("The year is not leap").
+     fin
+fin

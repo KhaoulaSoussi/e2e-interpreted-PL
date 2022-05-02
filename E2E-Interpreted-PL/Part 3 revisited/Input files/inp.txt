@@ -1,0 +1,14 @@
+demarre
+debut
+	~This is a comment~
+	entier var : 7, *b.
+	entier d.
+	car c : '-'.
+	entier result.
+	result : var + 10.
+	si(result = 17)
+	debut
+		affiche("Hello").
+	~Finally~
+	fin
+fin

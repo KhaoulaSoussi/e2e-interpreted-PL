@@ -1,0 +1,16 @@
+We modified what gets generated in the symbol table. 
+It used to contain only the variables used in the program, now it also contains function names and the different in the program.
+Assume for example we have a function "sum" that has two integer local variables x, and y; and the function main that has a
+character local variable s.
+Then the symbol table would look like this: 
+%sum
+entier x
+entier y
+%Main
+car s
+
+Any variables or constants declared/defined in the global scope are written at the top of the symbol table before other scopes.
+
+N.B., the modifications have been done directly to the lexer.java file that was generated when compiling lexer using JLex.
+
+We also mentioned this modification in the lexer documentation

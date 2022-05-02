@@ -1,0 +1,4 @@
+entier  x
+entier  y
+entier  res
+%Main

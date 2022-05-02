@@ -1,0 +1,21 @@
+DEC      x 0004
++0  0 0000 0005
+DEC      y 0004
++0  0 0000 0005
+DEC    res 0004
++0  0 0000 0000
+SPR
+ADD 9    x    y
+MOV 0 0000  res
+OUT 9  res 0000
+SUB 9    x    y
+MOV 0 0000  res
+OUT 9  res 0000
+MUL 9    x    y
+MOV 0 0000  res
+OUT 9  res 0000
+DIV 9    x    y
+MOV 0 0000  res
+OUT 9  res 0000
+HLT
+SPR

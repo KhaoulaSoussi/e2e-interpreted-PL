@@ -1,0 +1,13 @@
+CONST  FOUR
+CONST  HUND
+CONST  FHUND
+entier  year
+%modulo
+entier  nem
+entier  denom
+entier  quotient
+entier  mod
+%Main
+entier  r1
+entier  r2
+entier  r3

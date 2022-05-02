@@ -1,0 +1,9 @@
+- We fixed a small problem in the code that checks for a Leap year.
+- We fixed some regular expressions, namely:
+		- We added tab and newline in space handling
+		- We removed unnecessary parentheses from some REs
+- We fixed some issues in the EBNF, namely:
+		- We handled the predefined functions: affiche and scanne
+		- We omitter comments since they were stripped out at the lexical analysis level.
+		- We replaced compound statement with block
+		- We added colors for readablility purposes

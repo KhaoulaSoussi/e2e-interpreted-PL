@@ -1,0 +1,32 @@
+~This program checks if a given year is leap or not~
+
+definis FOUR : 4
+definis HUND : 100
+definis FHUND : 400
+
+entier year.
+
+fonction modulo (entier nem, entier denom) renvoi entier
+debut
+     entier quotient, mod.
+     quotient : [nem / denom].
+     mod : [nem - quotient * denom].
+     renvoi mod.
+fin
+
+demarre
+debut
+     entier r1, r2, r3.
+     scanne(year).
+     r1 : (modulo(year, FOUR)).
+     r2 : (modulo(year, HUND)).
+     r3 : (modulo(year, FHUND)).
+     si[r1 = 0 et r2 ? 0 ou r3 = 0]
+     debut
+          affiche(1).	~Meaning Leap~
+     fin
+     sinon
+     debut
+          affiche(0).	~Meaning Not Leap~
+     fin
+fin

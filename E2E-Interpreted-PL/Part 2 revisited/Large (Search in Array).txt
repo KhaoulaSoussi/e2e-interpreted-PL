@@ -1,0 +1,49 @@
+~This program uses a function to search for a number in an array and returns the index of its first occurrence
+
+/definis NUM : 6
+/definis SIZE : 10
+
+entier array[SIZE].	~Global variable
+
+fonction search() renvoie entier
+debut
+     entier i : 0, index = -1.
+     tantque(i < SIZE)
+     debut
+          si(array[i] = NUM)
+	  debut
+	       index : i.
+	       renvoi index.
+          fin
+	  i : i + 1.
+     fin
+     renvoi index.
+fin
+
+demarre
+debut
+     entier count : 0.
+     entier res.
+     affiche("Enter ten elements: ").
+     tantque(count < SIZE)
+     debut
+          scanne(array[count]).
+	  count : count + 1.
+     fin
+     res : search().
+     si(res = -1)
+     debut
+          affiche("The number does not exist!").
+     fin
+     sinon
+     debut
+          affiche("The first occurrence of the number" NUM "is at index:" res).
+     fin
+fin
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+~This is the medium complexity code~
+
+entier num.
+fonction getNum() renvoi entier
+debut
+	renvoi 8.
+fin
+
+demarre
+debut
+	num : (getNum()).
+	affiche(num).
+fin
+
+
+

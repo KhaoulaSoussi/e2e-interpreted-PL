@@ -1,0 +1,22 @@
+1.Handling of reserved words:
+	RE = (definis | si | sinon | demarre | tantque | vide | debut | fin | entier | car | renvoi | arrete | pas | et | ou)
+2.User-defined identifiers:
+	RE = *?[a-zA-Z]+[0-9a-zA-Z]*
+3.Numeric literal syntax:
+	RE = 0|(+|-)?[1-9][0-9]*
+4.Character literal syntax:
+	RE = ‘[a-zA-Z]’
+5.String literal syntax:
+	RE = “.”*	
+	The dot means any character (i.e., digits, letters, punctuations, ‘@’, ‘/’ …)
+6.Operators:
+	Arithmetic operators: 	RE = (+ | - | / | * | :)
+	Logical operators: 	RE = (et | ou | pas)
+	Relational operators:	RE = (< | > | = | ?)
+7.Punctuation:
+	RE = (\. | ,)
+8.Comments:
+	RE = ~ .*
+	The dot means any character (i.e., digits, letters, punctuations, ‘@’, ‘/’ …)
+9.Whitespace:
+	RE = ( |\n|\t|\r)*

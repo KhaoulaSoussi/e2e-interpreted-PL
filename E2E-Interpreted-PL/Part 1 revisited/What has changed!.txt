@@ -1,0 +1,2 @@
+Our machine language contained signs other than +/-, then we understood that it is supposted to be fully numeric.
+Therefore, we re-designed it. Since we made lots of changes, we also re-designed the assembly language to make it easier to translate from AL to ML.  

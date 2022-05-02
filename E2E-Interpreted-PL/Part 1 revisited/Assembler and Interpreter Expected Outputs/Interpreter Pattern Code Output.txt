@@ -1,0 +1,3 @@
+16
+
+This is the output when running the code on the inputs: 2 and 4.

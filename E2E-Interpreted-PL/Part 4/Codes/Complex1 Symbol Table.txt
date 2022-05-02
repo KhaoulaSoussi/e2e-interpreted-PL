@@ -1,0 +1,8 @@
+%sum
+entier  x
+entier  y
+entier  s
+%Main
+entier  var1
+entier  var2
+entier  res

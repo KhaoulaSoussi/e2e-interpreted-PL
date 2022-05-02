@@ -1,0 +1,30 @@
+~This program converts to letter grade given the percentage grade
+
+demarre
+debut
+     entier perG.
+     car letG.
+     affiche("Please enter the percentage grade: ").
+     scanne(perG).
+     si(perG >= 90)
+     debut
+	  letG = 'A'.
+     fin
+     sinon si(perG >= 80)
+     debut
+          letG = 'B'.
+     fin
+     sinon si(perG >= 70)
+     debut
+          letG = 'C'.
+     fin
+     sinon si(perG >= 60)
+     debut
+          letG = 'D'.
+     fin
+     sinon
+     debut
+          letG = 'F'.
+     fin
+     affiche("The letter grade is: " letG). 
+fin

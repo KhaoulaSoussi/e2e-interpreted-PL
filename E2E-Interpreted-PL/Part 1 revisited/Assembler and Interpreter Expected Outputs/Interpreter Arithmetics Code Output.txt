@@ -1,0 +1,3 @@
+-65  -75  -350  -14
+
+This is the output when running the code on the inputs: -5 and 70

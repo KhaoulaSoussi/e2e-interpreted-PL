@@ -25,9 +25,10 @@ When we reached the fourth deliverable, we realized that there were many issues 
 - Yassir Benabdallah
 
 ## Acronyms used throughout the project
-PL: Programming Language
-AL: Assembly Language
-ML: Machine Language
+- PL: Programming Language
+- AL: Assembly Language
+- ML: Machine Language
+
 
 N.B.: Please refer to the user manual for a detailed description of how to execute the program
 

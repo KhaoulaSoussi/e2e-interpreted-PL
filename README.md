@@ -18,11 +18,19 @@ Each phase of the project corresponds to a delivery. We start backwards from the
 ## Chellenges
 When we reached the fourth deliverable, we realized that there were many issues that should be fixed in the previous deliverables (all that was changed is mentioned in a text file in parts 1 to 3). We had to go back to all the deliverables that have been already submitted and had to change many things that made it complicated to reproduce input files and to re-debug the lengthy codes that we developed earlier.
 
+## Team members
+- Khaoula Ait Soussi
+- Nada Bounajma
+- Othmane Atanane
+- Yassir Benabdallah
+
 ## Acronyms used throughout the project
 PL: Programming Language
 AL: Assembly Language
 ML: Machine Language
 
 N.B.: Please refer to the user manual for a detailed description of how to execute the program
+
+Done on June 21st, 2021
 
 
